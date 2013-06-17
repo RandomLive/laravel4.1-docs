@@ -315,19 +315,19 @@ Tranlate a given language line with inflection. Alias of `Lang::choice`.
 
 ### secure_asset
 
-生成一个指向样式文件的a标签并使用使用 HTTPS 安全链接。
+生成一个指向样式文件并使用使用 HTTPS 安全链接的url。
 
 	echo secure_asset('foo/bar.zip', $title, $attributes = array());
 
 ### secure_url
 
-生成一个完全自定义的a标签并使用 HTTPS 安全链接。
+生成一个完全自定义url并使用 HTTPS 安全链接。
 
 	echo secure_url('foo/bar', $parameters = array());
 
 ### url
 
-生成一个完全自定义的a标签。
+生成一个完全自定义url。
 
 	echo url('foo/bar', $parameters = array(), $secure = null);
 
